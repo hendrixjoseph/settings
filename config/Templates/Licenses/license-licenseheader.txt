@@ -1,0 +1,15 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix} The MIT License (MIT)
+${licensePrefix}
+${licensePrefix} View the full license at:
+${licensePrefix} https://github.com/hendrixjoseph/FamilyTree/blob/master/LICENSE.md
+${licensePrefix} 
+${licensePrefix} Copyright (c) 2015 Joseph Hendrix
+${licensePrefix} 
+${licensePrefix} Hosted on GitHub at https://github.com/hendrixjoseph/FamilyTree
+${licensePrefix} 
+<#if licenseLast??>
+${licenseLast}
+</#if>
